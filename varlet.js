@@ -3,10 +3,10 @@ const browserName = `chrome`
 
 function getBrowserVersion()
 {
-    var browserVersion = 24.6
-
+    
     if(browserName===`chrome`)
     {
+        let browserVersion = 24.6
         console.log(`The browser name is ${browserName}`);
     }
     else{
